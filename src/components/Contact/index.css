@@ -1,0 +1,96 @@
+.contactme-gb-contaienr {
+    background-color: rgb(237, 249, 254);
+    min-height: 50vh;
+    padding: 10px 80px;
+}
+
+
+
+.contact-landing-page {
+    display: flex;
+    width: 100%;
+}
+
+.contact-landing-discription-container {
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-landing-heading {
+    font-size: 48px;
+    color: rgb(32, 13, 79);
+    text-align: center;
+}
+
+.contact-landing-discription {
+    color: rgb(72, 102, 129);
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+}
+
+.resume-button{
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: rgb(0, 28, 85);
+    padding: 12px 24px;
+    margin-top: 10px;
+}
+
+.contact-landing-img {
+    border-radius: 50%;
+    
+    height: 450px;
+    box-shadow: 0px 0px 100px white;
+}
+
+.contact-landing-img-motion {
+    width: 100%;
+
+}
+
+@media screen and (max-width: 768px) {
+    .contactme-gb-contaienr {
+        padding: 4px 30px;
+    }
+    
+    .contact-landing-img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .contact-landing-page {
+       
+        flex-direction: column;
+        
+    }
+    
+    
+    
+    .contact-landing-heading {
+        font-size: 34px;
+        font-weight: 500;
+        margin: 0px;
+    }
+    
+    .contact-landing-discription {
+        
+        font-size: 16px;
+        
+    }
+    
+    .resume-button{
+        border: none;
+        border-radius: 6px;
+        font-size: 18px;
+        background-color: rgb(0, 28, 85);
+        padding: 12px 24px;
+        margin-top: 10px;
+    }
+}

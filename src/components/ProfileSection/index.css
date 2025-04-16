@@ -1,0 +1,126 @@
+
+.profile-contaienr {
+    display: flex;
+}
+
+.profile-name {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(32, 13, 79);
+}
+
+.profile-details {
+    margin-top: 100px;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.profile-disc {
+    font-size: 20px;
+    color: rgb(72, 102, 129);
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.home-profile-img {
+    width: 600px;
+    height: 600px;
+}
+
+.profile-icons {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.git-profile-icon {
+    background-color: black;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkedin-profile-icon {
+    background-color: #0e76a8;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yt-profile-icon {
+    background-color: red;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insta-profile-icon {
+    background-color: #cb3853;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon {
+    color: white;
+    width: 24px;
+    height: 24px;
+}
+
+
+@media screen and (max-width: 768px){
+    .profile-contaienr {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .profile-name {
+        font-size: 32px;
+        margin-top: 0px;
+    }
+    
+    .profile-details {
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+    .profile-disc {
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    .home-profile-img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .profile-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        padding: 0px;
+    }
+    
+}
