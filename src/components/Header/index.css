@@ -13,7 +13,7 @@
 }
 
 .nav-portfolio-heading {
-    font-family: 'Brush Script MT';
+    font-family: 'Allura';
     font-style: italic;
     font-weight: bolder;
     font-size: 34px;
@@ -57,6 +57,12 @@
         flex-direction: column;
         list-style-type: none;
         padding-left: 20px;
+    }
+
+    .nav-portfolio-heading {
+        
+        font-size: 24px;
+    
     }
     
     .nav-bar-mobile-view {
