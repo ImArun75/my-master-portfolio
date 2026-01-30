@@ -21,8 +21,9 @@
     
 }
 
-.active {
+.nav-item-selected-item {
     font-weight: bolder;
+    color: navy;
 }
 
 .nav-items-container {
@@ -34,10 +35,6 @@
 .nav-item-list :hover {
     background-color: skyblue;
     
-}
-
-.nav-item-list {
-     
 }
 
 .link-element {
