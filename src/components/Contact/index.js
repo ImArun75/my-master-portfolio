@@ -51,7 +51,7 @@ const Contact = () => {
                                 </li>
                             </ul>
                             <button type="button" className="resume-button">
-                                <a href="https://drive.google.com/file/d/1XblMIs8gbzpi_wjL8OERDqEEMWG_j__D/view?usp=sharing" target="__blank" className="button-name">Show Resume</a></button>
+                                <a href="https://drive.google.com/file/d/1GDGLWorQuX5Y_pREJSozIcn49a6AKPFo/view?usp=sharing" target="__blank" className="button-name">Show Resume</a></button>
                         </div>
                     </motion.div>
                 </div>
