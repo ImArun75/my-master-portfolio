@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 import './index.css'
 
 const Contact = () => {
-    
+
     return (
         <>
             <Header />
@@ -35,28 +35,28 @@ const Contact = () => {
                             <p className='contact-landing-discription'>I am available on almost every social media. You can message me, I will reply within 24 hours.</p>
                             <ul className='profile-icons'>
                                 <li className='git-profile-icon '>
-                                    <a href="https://github.com/ImArun75" target="__blank"><FaGithub className="icon"/></a>
+                                    <a href="https://github.com/ImArun75" target="__blank"><FaGithub className="icon" /></a>
                                 </li>
                                 <li className='linkedin-profile-icon'>
-                                    <a href="https://www.linkedin.com/in/arunkumarreddy-kavvam/" 
-                                    target="__blank"><FaLinkedinIn className="icon"/></a>
+                                    <a href="https://www.linkedin.com/in/arunkumarreddy-kavvam/"
+                                        target="__blank"><FaLinkedinIn className="icon" /></a>
                                 </li>
                                 <li className='yt-profile-icon'>
-                                    <a href="https://www.youtube.com/@arunreddy7394" 
-                                    target="__blank"><FaYoutube className="icon"/></a>
+                                    <a href="https://www.youtube.com/@arunreddy7394"
+                                        target="__blank"><FaYoutube className="icon" /></a>
                                 </li>
                                 <li className='insta-profile-icon'>
-                                    <a href="https://instagram.com/arun_reddy_ig" 
-                                    target="__blank"><FaInstagramSquare className="icon"/></a>
+                                    <a href="https://instagram.com/arun_reddy_ig"
+                                        target="__blank"><FaInstagramSquare className="icon" /></a>
                                 </li>
                             </ul>
                             <button type="button" className="resume-button">
-                                <a href="https://drive.google.com/file/d/1GDGLWorQuX5Y_pREJSozIcn49a6AKPFo/view?usp=sharing" target="__blank" className="button-name">Show Resume</a></button>
-                        </div>
-                    </motion.div>
-                </div>
+                                <a href="https://drive.google.com/file/d/1ve4RTMnRoNb_M2vHZ8hpfe9jckWlnkFL/view?usp=drive_link" target="__blank" className="button-name">Show Resume</a></button>
+                        </div >
+                    </motion.div >
+                </div >
                 <Footer />
-            </div>
+            </div >
         </>
     )
 }

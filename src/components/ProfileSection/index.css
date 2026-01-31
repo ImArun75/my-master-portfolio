@@ -1,30 +1,70 @@
-
 .profile-contaienr {
     display: flex;
+    gap: 40px;
+    align-items: center;
 }
 
 .profile-name {
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(32, 13, 79);
+    font-size: 56px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+    animation: gradient 8s ease infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .profile-details {
-    margin-top: 100px;
-    width: 50%;
-    margin-right: 20px;
+    flex: 1;
+    padding: 40px;
+    background: rgba(30, 27, 75, 0.3);
+    border-radius: 24px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(102, 126, 234, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
 .profile-disc {
-    font-size: 20px;
-    color: rgb(72, 102, 129);
-    font-weight: 500;
-    line-height: 30px;
+    font-size: 18px;
+    color: #94a3b8;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 30px;
 }
 
 .home-profile-img {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
+    animation: float 6s ease-in-out infinite;
+    filter: drop-shadow(0 0 40px rgba(102, 126, 234, 0.3));
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
 }
 
 .profile-icons {
@@ -32,47 +72,46 @@
     align-items: center;
     list-style-type: none;
     padding: 0px;
+    gap: 16px;
+}
+
+.git-profile-icon,
+.linkedin-profile-icon,
+.yt-profile-icon,
+.insta-profile-icon {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 .git-profile-icon {
-    background-color: black;
-    margin-right: 20px;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: linear-gradient(135deg, #24292e 0%, #000000 100%);
 }
+
 .linkedin-profile-icon {
-    background-color: #0e76a8;
-    margin-right: 20px;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: linear-gradient(135deg, #0077b5 0%, #00a0dc 100%);
 }
+
 .yt-profile-icon {
-    background-color: red;
-    margin-right: 20px;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
 }
+
 .insta-profile-icon {
-    background-color: #cb3853;
-    margin-right: 20px;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.git-profile-icon:hover,
+.linkedin-profile-icon:hover,
+.yt-profile-icon:hover,
+.insta-profile-icon:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 8px 24px rgba(102, 126, 234, 0.4);
 }
 
 a {
@@ -81,40 +120,40 @@ a {
 
 .icon {
     color: white;
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
 }
 
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .profile-contaienr {
         display: flex;
         flex-direction: column;
         text-align: center;
         width: 100%;
+        gap: 20px;
     }
-    
+
     .profile-name {
-        font-size: 32px;
+        font-size: 36px;
         margin-top: 0px;
     }
-    
+
     .profile-details {
         width: 100%;
-        margin-top: 0px;
+        padding: 24px;
     }
-    
+
     .profile-disc {
         font-size: 16px;
         width: 100%;
     }
-    
+
     .home-profile-img {
         width: 100%;
         height: auto;
-        margin-top: 20px;
+        max-width: 400px;
     }
-    
+
     .profile-icons {
         display: flex;
         justify-content: center;
@@ -122,5 +161,4 @@ a {
         list-style-type: none;
         padding: 0px;
     }
-    
 }

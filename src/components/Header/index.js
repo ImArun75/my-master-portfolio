@@ -2,7 +2,7 @@ import { Component } from "react";
 import { Link, withRouter } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
-import {revealOnScroll} from "../../utils/reveal";
+import { revealOnScroll } from "../../utils/reveal";
 import "./index.css";
 
 class Header extends Component {
@@ -61,17 +61,17 @@ class Header extends Component {
         </nav>
 
         {!showNavItems && (
-          <ul className="nav-mobile-view-items-container reveal reveal-top">
-            <Link to="/" className="link-element">
+          <ul className="nav-mobile-view-items-container">
+            <Link to="/" className="link-element" onClick={this.changeNavState}>
               <li className={this.handleLinkClick("/")}>Home</li>
             </Link>
-            <Link to="/education" className="link-element">
+            <Link to="/education" className="link-element" onClick={this.changeNavState}>
               <li className={this.handleLinkClick("/education")}>Education</li>
             </Link>
-            <Link to="/projects" className="link-element">
+            <Link to="/projects" className="link-element" onClick={this.changeNavState}>
               <li className={this.handleLinkClick("/projects")}>Projects</li>
             </Link>
-            <Link to="/contact" className="link-element">
+            <Link to="/contact" className="link-element" onClick={this.changeNavState}>
               <li className={this.handleLinkClick("/contact")}>Contact Me</li>
             </Link>
           </ul>

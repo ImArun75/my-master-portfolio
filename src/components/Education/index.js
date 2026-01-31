@@ -3,7 +3,7 @@ import { AiFillThunderbolt } from "react-icons/ai";
 
 import Header from "../Header";
 import Footer from "../Footer";
-import {revealOnScroll} from "../../utils/reveal";
+import { revealOnScroll } from "../../utils/reveal";
 
 import "./index.css";
 
@@ -36,11 +36,11 @@ const Education = () => {
               </p>
 
               <div className="education-highlight-discription-icons">
-                <img src="https://img.icons8.com/?size=100&id=9L16NypUzu38&format=png&color=000000" alt="" />
-                <img src="https://img.icons8.com/?size=100&id=O4SEeX66BY8o&format=png&color=000000" alt="" />
-                <img src="https://img.icons8.com/?size=100&id=jldAN67IAsrW&format=png&color=000000" alt="" />
-                <img src="https://img.icons8.com/?size=100&id=O51Kg2nJsbIW&format=png&color=000000" alt="" />
-                <img src="https://img.icons8.com/?size=100&id=h5EUmNCXhSH0&format=png&color=000000" alt="" />
+                <img src="https://img.icons8.com/?size=100&id=9L16NypUzu38&format=png&color=000000" alt="" className="education-highlight-discription-icon" />
+                <img src="https://img.icons8.com/?size=100&id=O4SEeX66BY8o&format=png&color=000000" alt="" className="education-highlight-discription-icon" />
+                <img src="https://img.icons8.com/?size=100&id=jldAN67IAsrW&format=png&color=000000" alt="" className="education-highlight-discription-icon" />
+                <img src="https://img.icons8.com/?size=100&id=O51Kg2nJsbIW&format=png&color=000000" alt="" className="education-highlight-discription-icon" />
+                <img src="https://img.icons8.com/?size=100&id=h5EUmNCXhSH0&format=png&color=000000" alt="" className="education-highlight-discription-icon" />
               </div>
             </div>
           </div>

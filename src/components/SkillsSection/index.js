@@ -5,9 +5,9 @@ import "./index.css";
 
 const SkillsSection = () => {
 
-useEffect(() => {
-  revealOnScroll();
-}, []);
+  useEffect(() => {
+    revealOnScroll();
+  }, []);
 
   return (
     <>
@@ -20,32 +20,32 @@ useEffect(() => {
           <img
             className="SkillsSection-image"
             src="https://raw.githubusercontent.com/ashutosh1919/masterPortfolio/f5bd358efeb9edce99720bc825f829749d1c8023/src/assets/images/fullstack.svg"
-            alt=""
+            alt="frontend development"
           />
         </div>
 
         <div className="skills-section-item-details reveal reveal-right">
           <h1 className="skills-section-heading">
-            Full Stack Web Development
+            Frontend Development
           </h1>
 
           <div className="skills-section-disc">
             <div className="skill-icon-disc">
               <FaDroplet className="skill-icon" />
               <p className="skill-disc">
-                Building responsive websites using React Router
+                Building responsive and interactive web applications using <strong>React.js</strong> and <strong>JavaScript</strong>.
               </p>
             </div>
             <div className="skill-icon-disc">
               <FaDroplet className="skill-icon" />
               <p className="skill-disc">
-                Developing mobile apps using React ecosystem
+                Creating pixel-perfect, UI-rich interfaces with <strong>Tailwind CSS</strong>, <strong>Bootstrap</strong>, and <strong>Figma</strong>.
               </p>
             </div>
             <div className="skill-icon-disc">
               <FaDroplet className="skill-icon" />
               <p className="skill-disc">
-                Creating backend services using Node and Express
+                Implementing client-side routing and smooth animations using <strong>React Router</strong>.
               </p>
             </div>
           </div>
@@ -56,39 +56,33 @@ useEffect(() => {
         <div className="reveal reveal-left">
           <img
             className="SkillsSection-image"
-            src="https://raw.githubusercontent.com/ashutosh1919/masterPortfolio/f5bd358efeb9edce99720bc825f829749d1c8023/src/assets/images/cloud_infrastructure.svg"
-            alt=""
+            src="https://raw.githubusercontent.com/ashutosh1919/masterPortfolio/f5bd358efeb9edce99720bc825f829749d1c8023/src/assets/images/data_science.svg"
+            alt="backend development"
           />
         </div>
 
         <div className="skills-section-item-details reveal reveal-right">
           <h1 className="skills-section-heading">
-            Cloud Infra-Architecture
+            Backend Development
           </h1>
 
           <div className="skills-section-disc">
             <div className="skill-icon-disc">
               <FaDroplet className="skill-icon" />
               <p className="skill-disc">
-                Experience working on multiple cloud platforms
+                Developing scalable backend services and <strong>RESTful APIs</strong> using <strong>Node.js</strong> and <strong>Express.js</strong>.
               </p>
             </div>
             <div className="skill-icon-disc">
               <FaDroplet className="skill-icon" />
               <p className="skill-disc">
-                Hosting and maintaining VM-based applications
+                Implementing secure authentication and authorization using <strong>JWT</strong> and persistent login logic.
               </p>
             </div>
             <div className="skill-icon-disc">
               <FaDroplet className="skill-icon" />
               <p className="skill-disc">
-                Streaming data between DBs and servers on AWS & GCP
-              </p>
-            </div>
-            <div className="skill-icon-disc">
-              <FaDroplet className="skill-icon" />
-              <p className="skill-disc">
-                Deploying ML models on cloud for mobile usage
+                Database management and server-side processing with <strong>MongoDB</strong>, <strong>SQL</strong>.
               </p>
             </div>
           </div>
